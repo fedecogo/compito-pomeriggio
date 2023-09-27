@@ -1,5 +1,7 @@
 body{
     margin-top: 0px;
+font-family: 'Open Sans', sans-serif;
+
 }
 .lastDiv p{color: #742204;}
 .container{
@@ -14,7 +16,7 @@ body{
 }
 .carte{
     display: flex;
-    flex-direction: row;
+    flex-direction:row-reverse;
     flex-wrap: wrap;
     justify-content: space-around;
     
@@ -27,7 +29,7 @@ body{
     margin: 1em;
     justify-content: center;
 }
-.itemsC{
+.items:first-child{
     background-color: #FFDF7F;
     height: 60px;
     width: 90%;
@@ -48,7 +50,7 @@ h1{
     color: #742204;
     display: inline-block;
 }
-.itemsC IMG{
+.items:first-child IMG{
     margin-top: 10px;
     margin-right: 15px;
 
@@ -143,16 +145,20 @@ button{
     .container{
         background-color: #FEF7E2;
         display: flex;
+        flex-wrap: wrap;
         text-align: center;
         border-radius: 0px;
         color: #742204;
         font-size: 1.1em;
         margin-top: 0px;
+        justify-content: space-around;
      }
      .carte{
          display: flex;
-         justify-content:center;
+         flex-wrap: nowrap;
+         justify-content:space-around;
          align-items: center;
+         flex-grow: 1;
          
      
      }
@@ -168,13 +174,49 @@ button{
          justify-content: center;
          height: 50px;
      }
-     .itemsC{
+     .items:first-child{
          background-color: #FFDF7F;
          height: 100px;
          width: 14%;
          border-radius: 2em;
          margin: 1em;
      }
+     div.carte .items:nth-child(1) {
+        order: 3;
+        width: 35%;
+        height: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+     div.carte .items:nth-child(2) {
+        order: 1;
+        width: 15%;
+        height: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+     div.carte .items:nth-child(3) {
+        order: 2;
+        width: 15%;
+        height: 45px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+     div.carte .items:nth-child(4) {
+        order: 4;
+        width: 15%;
+        height: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+     div.carte .items:nth-child(5) {
+        order: 5;
+        width: 15%;
+        height: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      
      .container h1{
          text-align: center;
          margin: 0;
@@ -182,12 +224,9 @@ button{
          display: inline-block;
          font-size: x-large;
      }
-     .itemsC IMG{
-        margin-top: 10px;
-    
-    }
+   
     .titolo h1{
-        margin-left: 0px;
+        margin-left: 20px;
     }
     aside{
         display: flex;
@@ -200,6 +239,7 @@ button{
     .cardHoney:nth-child(5) {
         display: none;
       }
+
 }
 
 @media (min-width:768px) and ( max-width:1200px){
