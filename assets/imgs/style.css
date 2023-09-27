@@ -203,7 +203,43 @@ button{
 }
 
 @media (min-width:768px) and ( max-width:1200px){
-    .tablet
+    .tablet{
+        display: flex;  
+    }
+    .container{
+        background-color: #FEF7E2;
+        display: flex;
+        text-align: center;
+        border-radius: 0px;
+        color: #742204;
+        font-size: 1.1em;
+        margin-top: 0px;
+        height: 100%;
+     }
+     .carte{
+         display: flex;
+         justify-content:center;
+         align-items: center;
+     }
+     h1{
+        margin: 0%;
+        padding: 0%;
+     }
+     aside{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+     }
+     .cardHoney{
+        width: 30%;
+     }
+     .cardHoney:nth-child(5) {
+        display: none;
+      }
+     .cardHoney:nth-child(4) {
+        display: none;
+      }
 }
 @media (min-width:1201px) {
+
 }
