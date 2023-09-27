@@ -1,3 +1,7 @@
+body{
+    margin-top: 0px;
+}
+.lastDiv p{color: #742204;}
 .container{
    background-color: #FEF7E2;
    display: flex;
@@ -131,8 +135,73 @@ button{
 /* teblet-ipad */
 
 
-@media (max-width:px){
+
+@media (min-width:576px) and ( max-width:767px){
+    body{
+        margin: 0px;
+    }
+    .container{
+        background-color: #FEF7E2;
+        display: flex;
+        text-align: center;
+        border-radius: 0px;
+        color: #742204;
+        font-size: 1.1em;
+        margin-top: 0px;
+     }
+     .carte{
+         display: flex;
+         justify-content:center;
+         align-items: center;
+         
+     
+     }
+     .items p{
+        margin-top: 2px;
+
+     }
+     .items{
+         background-color: #FFDF7F;
+         width: 17%;
+         border-radius: 1.3em;
+         margin: 1em;
+         justify-content: center;
+         height: 50px;
+     }
+     .itemsC{
+         background-color: #FFDF7F;
+         height: 100px;
+         width: 14%;
+         border-radius: 2em;
+         margin: 1em;
+     }
+     .container h1{
+         text-align: center;
+         margin: 0;
+         color: #742204;
+         display: inline-block;
+         font-size: x-large;
+     }
+     .itemsC IMG{
+        margin-top: 10px;
+    
+    }
+    .titolo h1{
+        margin-left: 0px;
+    }
+    aside{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+    .cardHoney{
+        width: 40%;
+    }
+    .cardHoney:nth-child(5) {
+        display: none;
+      }
 }
+
 @media (min-width:768px) and ( max-width:1200px){
 }
 @media (min-width:1201px) {
