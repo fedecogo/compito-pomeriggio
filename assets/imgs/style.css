@@ -1,0 +1,139 @@
+.container{
+   background-color: #FEF7E2;
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+   border-radius: 4em;
+   color: #742204;
+   font-size: 1.1em;
+   margin-top: 20px;
+}
+.carte{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.items{
+    background-color: #FFDF7F;
+    width: 40%;
+    border-radius: 1.3em;
+    margin: 1em;
+    justify-content: center;
+}
+.itemsC{
+    background-color: #FFDF7F;
+    height: 60px;
+    width: 90%;
+    border-radius: 2em;
+    margin: 1em;
+}
+.container h1{
+    text-align: center;
+    margin: 0;
+    margin-left: 20PX;
+    color: #742204;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    margin-left: 120PX;
+    color: #742204;
+    display: inline-block;
+}
+.itemsC IMG{
+    margin-top: 10px;
+    margin-right: 15px;
+
+}
+.titolo{
+    margin-top: 30px;
+}
+
+
+.cardText{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cardText h2{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #742204;
+}
+.cardText p{
+    margin-top: 0%;
+    color: #742204;
+}
+.sx{ 
+    text-align: center;
+}
+.dx{
+    text-align: center;
+}
+.photoHoney{
+    background-color:#FEF7E2 ;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.photoHoney img{
+    width: 100%;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+}
+button{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color:#FFDF7F ;
+    border-radius: 1em;
+    color: #742204;
+    font-size: larger;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 0px;
+} 
+.lasth2 h2{
+    text-align: center;
+    color: #742204;
+    font-size: xx-large;
+}
+.lastDiv{
+    width: 90%;
+    background-color:#FEF7E2 ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em;
+}
+.lastDiv h4{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: large;
+    color: #742204;
+    margin-bottom: 20px;
+}
+.lastDiv P{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.lastDiv img {
+    margin-left: 5%;
+    width: 90%;
+    margin-bottom: 20px;
+}
+/* teblet-ipad */
+
+
+@media (max-width:px){
+}
+@media (min-width:768px) and ( max-width:1200px){
+}
+@media (min-width:1201px) {
+}
